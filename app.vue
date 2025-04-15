@@ -1,5 +1,11 @@
 <template>
   <NuxtLayout>
-    <NuxtPage />
+    <UApp>
+      <UContainer>
+        <NuxtPage />
+      </UContainer>
+    </UApp>
   </NuxtLayout>
 </template>
+<script setup lang="ts">
+</script>
