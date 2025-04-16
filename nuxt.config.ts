@@ -12,5 +12,8 @@ export default defineNuxtConfig({
     '@nuxt/test-utils',
     '@nuxt/ui',
     '@nuxt/content'
-  ]
+  ],
+  experimental: {
+    componentIslands: true,
+  },
 })

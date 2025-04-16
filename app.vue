@@ -1,7 +1,7 @@
 <template>
   <NuxtLayout>
     <UApp>
-      <UContainer>
+      <UContainer class="py-7">
         <NuxtPage />
       </UContainer>
     </UApp>
